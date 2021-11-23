@@ -1,0 +1,156 @@
+	/*MOBILE*/
+@media only screen and (max-width: 739px) {
+
+	main { 
+		width: 730px; 
+		padding: 0 15px; 
+	}
+
+	#header {
+		width: 450px;
+		display: block;
+		margin-top: 15%;
+		height: auto;
+		text-align: center;
+		right: 0;
+	}
+
+	.content .content-item .content-item-title::after { 
+		top: 133%; 
+		left: 10%; 
+		width: 15%;
+	}
+
+	#header .intro__user {
+		display: block;
+	}
+
+	#header .intro__user::after {
+		display: none;
+	}
+
+	#header .intro__user-image {
+		margin: -50px 0 0 10px;
+	}
+
+	#header .intro__contact {
+		margin: 100px 0 0 75px;
+		padding-bottom: 20px;
+		display: block;
+		text-align: left;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.content .options {
+		border-bottom: 0;
+	    border-radius: 0;
+	    box-shadow: 0 20px 40px rgb(103 118 128 / 20%);
+	    padding: 8px 0;
+	    position: fixed!important;
+	    bottom: 0;
+	    left: 0;
+	    width: 100%!important;
+	    z-index: 10;
+	    margin-top: 0!important;
+	    top: auto!important;
+	    height: 80px;
+	}
+
+	.content .options .option {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.content .option .option__item {
+		height: 4.25rem;
+		font-size: 12px;
+	}
+
+	.content .option .option__item lord-icon {
+		width:50px;
+		height:50px;
+	} 
+
+	.colum-2 ul {
+		display: block;
+	}
+
+	.colum-10 {
+		width: 65%;
+	}
+
+	.content .content-item .content-item-text {
+		width: 100%;
+
+	}
+
+	.content .options {
+		display: block;
+	}
+
+	.content .content-item .row {
+		display: block;
+	}
+
+	.content .content-item .row .colum-6 {
+		width: 86%;
+	}
+
+	.content .content-item .slide {
+		width: 100%;
+		box-sizing: border-box;
+				height: auto;
+	}
+
+	.content .slide .next {
+		margin-left: 350px;
+
+	}
+
+	.content .content__list .content-item-sub-body {
+		width: 100%;
+	}
+
+	.content .content-item-sub-body img {
+		width: 100px;
+		height: 50px;
+	}
+
+}
+
+
+	/* TABLET */
+/*@media only screen and (min-width: 740px) and (max-width: 1023px)
+*/
+
+
+
+/*@media only screen and (max-width: 739px) {
+	#header {
+		    display: block;
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+	}
+
+	#header .intro__user {
+		margin-bottom: 152px;
+    display: block;
+    margin-left: 219px;
+	}
+
+	#header .intro__contact {
+		display: block;
+	}
+
+	#header .intro__user-image {
+		margin-top: -50px;
+    margin-bottom: 15px;
+	}
+
+}*/
+
+	
