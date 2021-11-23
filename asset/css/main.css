@@ -234,9 +234,6 @@ main {
 }
 
 .content .option {
-	/*display: flex;
-	align-items: center;
-	justify-content: center;*/
 	text-align: center;
 }
 
@@ -296,7 +293,17 @@ main {
 	font-family: 'Fira Sans', sans-serif;
 }
 
-.content .content-item .content-item-title::after {
+.content-underline-title {
+		height: 5px;
+    width: 10%;
+    background-image: linear-gradient(142.17deg,#cc2dc4 6.66%,#cead1c 91.48%);
+    margin-top: -25px;
+    margin-bottom: 25px;
+    left: 26%;
+    border-radius: 25px;
+}
+
+/*.content .content-item .content-item-title::after {
     position: absolute;
     content: '';
     height: 4px;
@@ -307,14 +314,13 @@ main {
     left: 26%;
     border-radius: 25px;
 }
-
+*/
 .content .content-item .content-item-text {
-	color: #2C272E;
+	color: rgba(47, 047, 47, 0.9);
 	margin-top: 10px;
 	text-align: left;
 	padding-left: 0;
-	font-weight: 600;
-	font-family: 'Roboto Slab', serif;
+	/*font-family: 'Roboto Slab', serif;*/
 
 }
 
@@ -437,7 +443,7 @@ main {
 
 		/*KỸ NĂNG CỦA TÔI*/
 .content .content-item .container__skill {
-	width: 82%;
+	width: 100%;
 	height: 305px;
 	border: 3px solid #fff;
 	border-radius: 25px;
@@ -487,9 +493,9 @@ main {
 
 
 		/*MỤC TIÊU*/
-.content .content__list .target {
+/*.content .content__list .target {
 	margin-bottom: 15px;
-}
+}*/
 
 
 		/*SỞ THÍCH*/
@@ -588,7 +594,7 @@ main {
 
 .content .slide .prev {
 	margin-left: -50px;
-	margin-top: -50px;
+	margin-top: -70px;
 }
 
 .content .slide .next {
